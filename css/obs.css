@@ -1,0 +1,130 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-family: Optima, sans-serif;
+    
+}
+
+
+.mds{
+ 
+  background-repeat: -repeat right top fixed;
+
+}
+
+
+body {
+  font-family: 'Open Sans', serif;
+  background-image:url(https://thumbs.dreamstime.com/b/teste-padr%C3%A3o-sem-emenda-da-padaria-do-vetor-com-p%C3%A3o-dos-desenhos-animados-74219551.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute; 
+	left: 420px; /* posiciona a 90px para a esquerda */ 
+  right: 430px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+  bottom: 100px;
+  text-align: center;
+  display: block;
+}
+
+.p{
+  font-size: 15px;
+  padding: 10px;
+  border: 0px solid;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.formulario {
+  
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  left: 420px; /* posiciona a 90px para a esquerda */ 
+  right: 430px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+  bottom: 100px;
+  padding: auto;
+  overflow-x: hidden;
+}
+
+.label {
+
+    /*COR DA FONTE DA INFORMAÇÃO ACIMA DOS CAMPOS*/
+    color: white;
+    position: absolute;
+    padding: 0px; 
+
+}
+.name{
+  color:beige
+}
+
+
+.botao{
+  font-size: 20px;
+  padding: 10px;
+  border: 15px solid;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #a3163c;
+  color: white;
+  margin: 12px 0px 12px;
+
+}
+
+form {
+  
+    display: block;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+    border-radius: 10px;    
+    height: 100%;
+    background-color: rgba(175, 134, 72, 0.308);
+    padding: 12px;
+    width: 350px;
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+ left: 10px;
+ right: 10px; 
+  text-align: center;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+
+input:not([type="checkbox"]){
+  width: 60%;
+  margin-top: 20px;
+  padding: 10px;    
+  border: 1px solid  #a16a6a;
+ background-color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"]:hover{
+  /*cor do botão quando o mouse passa em cima*/background: #c08989;
+    }

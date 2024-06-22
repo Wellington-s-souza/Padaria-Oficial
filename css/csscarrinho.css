@@ -1,0 +1,116 @@
+*{margin: 0; padding: 0;
+    
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    background-image: url("https://images.vexels.com/media/users/3/200984/isolated/preview/f20fe1b9261f8b15d47e41bf5e44fae8-mao-com-icone-de-cor-do-carrinho-de-compras.png") ;
+    position: absolute; 
+	left: 420px; /* posiciona a 90px para a esquerda */ 
+    right: 430px; /* posiciona a 90px para a esquerda */ 
+	top: 100px; /* posiciona a 70px para baixo */
+     bottom: 100px;
+    text-align: center;
+    display: block;
+    
+   /* text-align: center;
+    position: relative;
+   height: 512px;
+   width: 512px;
+   display: block;
+ margin: 0px auto;
+ 
+
+*/
+   
+}
+
+.form{
+    border-radius: 10px;
+    background-color: rgb(197, 171, 171);
+    height: 280px; 
+}
+
+body{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(4, 0, 59);
+    background-image: url("https://m.media-amazon.com/images/I/41nE0pOgS6L._AC_SX450_.jpg");
+    
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-size: 40px;
+    background-image: url("https://m.media-amazon.com/images/I/41nE0pOgS6L._AC_SX450_.jpg");
+}
+
+.quant{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    background-image: url("https://m.media-amazon.com/images/I/41nE0pOgS6L._AC_SX450_.jpg");
+
+}
+
+a{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:  rgb(255, 255, 255);
+}
+
+.botao{
+    text-align: center;
+    position: relative;
+   
+      margin-top: 40px;
+      text-align: center;
+      display: block;
+     
+}       
+
+.foto{
+    position: absolute; 
+	left: 420px; /* posiciona a 90px para a esquerda */ 
+    right: 430px; /* posiciona a 90px para a esquerda */ 
+	top: 100px; /* posiciona a 70px para baixo */
+    bottom: 100px;
+    text-align: center;
+    display: block;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/6/E-Commerce-Design-Transparent-File.png");
+    width: 695px;
+    height: 455px;
+}
+
+.boto{
+    left: 420px; /* posiciona a 90px para a esquerda */ 
+    right: 430px; /* posiciona a 90px para a esquerda */ 
+	top: 100px; /* posiciona a 70px para baixo */
+    bottom: 100px;
+    width: 100%;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: rgb(121, 165, 173);
+    color: rgb(4, 0, 59);
+    border: 2px solid rgb(121, 165, 173);; /* Green */
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+}
+
+

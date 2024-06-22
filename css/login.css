@@ -1,0 +1,98 @@
+*{margin: 0;padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+body {
+  font-family: 'Open Sans', serif;
+  background-image:url(https://cidadedesaopaulo.com/wp-content/uploads/2017/01/makro_atacado_sortimentos_padaria.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px;
+    border: 0px solid;
+    width: 100%;
+    border-radius: 5px;
+}
+form {
+    display: block;
+    margin-top: 7%;
+    border-radius: 10px;    
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 12px;
+    width: 350px;
+    
+}
+#login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.butao{
+    font-size: 20px;
+    padding: 10px;
+    border: 0px solid;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #a3163c;
+    color: white;
+    margin: 12px 0px 12px;
+
+}
+h2{
+ text-align: center;
+ font-size: 60px;
+ margin: 0px -20px 15px -35px;
+ color: white;
+ opacity: 0.8;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+label{
+  cursor: default;
+  color: white;
+  opacity: 0.8;
+ 
+}
+div {
+  display: block;
+  
+  margin: 15px 0px;
+}
+p{
+  margin: 6px 0px;
+}
+.Cadastrar{ 
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+.onb_headerBackBtnContent > button {
+  background: transparent;
+  padding: 0px 10px;
+  border: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Nunito,sans-serif;
+  color: #79380c;
+}
+.botao{
+    color: #79380c;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 8px;
+}
+.Entrar{
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
