@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="topnav">
-  <a class="active" href="../produto/index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a class="active" href="../index.php"><i class="fa fa-fw fa-home"></i> Home</a> 
    <div class="subnav">
     <button class="subnavbtn">Categorias <i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
@@ -18,7 +18,7 @@
       <a href="./salgados.php">Salgados</a>
     </div>
 </div>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contato</a>
+  <a href="../observacao/formDoClient.php"><i class="fa fa-fw fa-envelope"></i> Contato</a>
   <form class="example" action="/action_page.php">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>

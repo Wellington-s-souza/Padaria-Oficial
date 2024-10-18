@@ -1,10 +1,14 @@
 <?php
 session_start();
 
+header("Content-type:text/css");
 header("Content-type: text/html; charset=utf-8");
+"[html] '<link rel='stylesheet' type='text/css' href='../css/csspaginas.css' /> '[/html]";
 
-include '../conexao/conexao.php';
-include_once 'produto.php';
+
+
+include 'conexao/conexao.php';
+include_once 'produto/produto.php';
 include_once 'formProduto.php';
 
 $id = $_POST["id"];
@@ -124,3 +128,4 @@ if ($botao == "consultar")
         }
 
 }
+?>

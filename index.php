@@ -3,7 +3,7 @@
 <head>
     <title>Padaria</title>
  <meta charset="UTF-8">
- <link href="../css/indexSite.css" rel="stylesheet" type="text/css" />
+ <link href="css/indexSite.css" rel="stylesheet" type="text/css" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,17 +14,17 @@
    <div class="subnav">
     <button class="subnavbtn">Categorias <i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
-      <a href="doces.php">Doces</a>
-      <a href="salgados.php">Salgados</a>
+      <a href="produto/doces.php">Doces</a>
+      <a href="produto/salgados.php">Salgados</a>
     </div>
 </div>
-  <a href="../site/login.html"><i class="fa fa-fw fa-envelope"></i> Contato</a>
+  <a href="site/login.html"><i class="fa fa-fw fa-envelope"></i> Contato</a>  
   <form class="example" action="/action_page.php">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
   <div class="login1">
-  <a href="../site/login.html"><i class="fa fa-fw fa-user"></i> Login</a>
-  <a class="btn btn-primary" href="../site/login.html" role="button">
+  <a href="site/login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a class="btn btn-primary" href="site/login.html" role="button">
   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
 </svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Carrinho</font></font></a>
@@ -46,7 +46,7 @@
     
 <?php
     
-    include_once '../conexao/conexao.php';   
+    include_once 'conexao/conexao.php';   
 
     $sql = "select * from produto order by id ASC limit 4;";
     $bd = new Conexao();
@@ -60,7 +60,7 @@
 
 ?>
  <li class="product-item">
-        <a href="../site/login.html" class="product-link">
+        <a href="site/login.html" class="product-link">
 <figure class="product-info">
                 <div class="product-info-img">        
             <?php echo '<img src="Imagens' . $Linha->imagem . '" width="230px" height="230px">' . '<br>' . "<hr>";?>
@@ -114,7 +114,7 @@
     
 <?php
     
-    include_once '../conexao/conexao.php';   
+    include_once 'conexao/conexao.php';   
 
     $sql = "select * from produto order by id DESC limit 4;";
     $bd = new Conexao();
@@ -128,7 +128,7 @@
 
 ?>
  <li class="product-item">
-        <a href="../site/login.html" class="product-link">
+        <a href="site/login.html" class="product-link">
 <figure class="product-info">
                 <div class="product-info-img">        
             <?php echo '<img src="Imagens' . $Linha->imagem . '" width="230px" height="230px">' . '<br>' . "<hr>";?>
@@ -163,7 +163,7 @@
             <ins><?php echo 'R$'. $Linha->preco. "<br>";?> </ins>
             <?php echo 'Vencimento:<br>'. $Linha->vencimento."<br>" ;?>
         </div>
-                    <button href="../carrinho/carrinho.php" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+                    <button href="carrinho/carrinho.php" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
         
         </div>
     
@@ -183,7 +183,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                <a href="index.php"><img class="img" id="myimage" src="../img/padaria.jpg" width="90%"height="90%"><h2 class="logo"><a href=""> </a></h2>
+                <a href="index.php"><img class="img" id="myimage" src="img/padaria.jpg" width="90%"height="90%"><h2 class="logo"><a href=""> </a></h2>
                 </div></a>
                 <div class="col-sm-2">
                     <h5>Inicio</h5>

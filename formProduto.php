@@ -7,7 +7,7 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<link href="../css/csspaginas.css" rel="stylesheet" type="text/css" />
+	<link href="css/csspaginas.css" rel="stylesheet" type="text/css" media="screen"/>
 </head>
 <body>
 <div class="formulario">
